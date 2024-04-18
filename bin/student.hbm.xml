@@ -6,12 +6,12 @@
 
 <hibernate-mapping>
     
-     <class name="model.Student" table="studentinfo">  
+     <class name="model.Student" table="studentDATA">  
     <id name="sid">  
      <generator class="assigned"></generator>  
     </id>  
             
-    <property name="sname" column="name" ></property>  
+    <property name="sname" ></property>  
     <property name="saddres"  ></property>  
             
   </class>  
