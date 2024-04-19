@@ -21,7 +21,7 @@ public class Test {
 		Session session = factory.openSession();
 		Transaction tx = session.beginTransaction();
 
-		Student s=new Student(101,"kartik","nagpur") ;
+		Student s=new Student(102,"pranit","nagpur") ;
 		session.save(s);
 	
 		tx.commit();
